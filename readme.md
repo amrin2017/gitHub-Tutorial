@@ -1,20 +1,20 @@
 Tutorial GitHub dari Awal Sampai Akhir (Lengkap untuk Pemula)
+![image](/image/metamedia.jpg)
+Universitas Metamedia, Padang
 Fakutlas Teknologi Sistem Informasi dan Industri Kreatif
 Program Studi Sistem Informasi
 
 Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hingga mampu mengelola proyek secara profesional.
 
----
-
 1. Apa itu GitHub?
    GitHub adalah platform berbasis cloud untuk menyimpan, mengelola, dan berkolaborasi pada kode program menggunakan sistem kontrol versi Git.
    GitHub digunakan untuk:
-   • Menyimpan source code
-   • Backup project
-   • Kolaborasi tim
-   • Mencatat perubahan program
-   • Portofolio programmer
-   • Publikasi proyek open source
+   1.1 Menyimpan source code
+   1.2 Backup project
+   1.3 Kolaborasi tim
+   1.4 Mencatat perubahan program
+   1.5 Portofolio programmer
+   1.6 Publikasi proyek open source
    Website resmi:
    GitHub
 

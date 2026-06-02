@@ -1,23 +1,25 @@
 Tutorial GitHub dari Awal Sampai Akhir (Lengkap untuk Pemula)
 ![image](/image/metamedia.jpg)
+<br>
 Universitas Metamedia, Padang
 Fakutlas Teknologi Sistem Informasi dan Industri Kreatif
 Program Studi Sistem Informasi
-
+<br>
 Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hingga mampu mengelola proyek secara profesional.
+<br>
 
 1. Apa itu GitHub?
    GitHub adalah platform berbasis cloud untuk menyimpan, mengelola, dan berkolaborasi pada kode program menggunakan sistem kontrol versi Git.
-   GitHub digunakan untuk:
-   1.1 Menyimpan source code
-   1.2 Backup project
-   1.3 Kolaborasi tim
-   1.4 Mencatat perubahan program
-   1.5 Portofolio programmer
-   1.6 Publikasi proyek open source
-   Website resmi:
+   GitHub digunakan untuk: <br>
+   1.1 Menyimpan source code <br>
+   1.2 Backup project <br>
+   1.3 Kolaborasi tim <br>
+   1.4 Mencatat perubahan program <br>
+   1.5 Portofolio programmer <br>
+   1.6 Publikasi proyek open source <br>
+   Website resmi: <br>
    GitHub
-
+   <br>
 2. Perbedaan Git dan GitHub
    Git GitHub
    Software Version Control Website penyimpanan repository
@@ -27,12 +29,10 @@ Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hi
    Git = Mesin
    GitHub = Garasi
 
----
-
-3. Membuat Akun GitHub
+3. Membuat Akun GitHub <br>
    Langkah 1
    Buka:
-   GitHub Sign Up
+   GitHub Sign Up <br>
    Langkah 2
    Isi:
    • Email
@@ -41,20 +41,20 @@ Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hi
    Contoh:
    Username : amrinlubis
    Email : mamrinlubis@metamedia.ac.id
-   Password : **\*\*\*\***
+   Password : **\*\*\*\*** <br>
    Langkah 3
-   Verifikasi email.
+   Verifikasi email. <br>
    Langkah 4
    Login ke GitHub.
 
 4. Mengenal Tampilan GitHub
-   Menu utama:
-   Dashboard
+   Menu utama: <br>
+   4.1 Dashboard <br>
    Berisi:
    • Repository terbaru
    • Aktivitas
-   • Notifikasi
-   Repositories
+   • Notifikasi<br>
+   4.2 Repositories <br>
    Tempat penyimpanan project.
    Projects
    Manajemen pekerjaan.
@@ -80,7 +80,7 @@ Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hi
    Setelah instalasi:
    git config --global user.name "Muhammad Amrin Lubis"
 
-git config --global user.email "amrin@gmail.com"
+git config --global user.email "mamrinlubis@metamedia.ac.id"
 Cek konfigurasi:
 git config --list
 
@@ -237,8 +237,6 @@ Aplikasi berbasis Laravel
     Contoh file:
     .github/workflows/main.yml
 
----
-
 25. SSH GitHub
     Lebih aman daripada username/password.
     Generate SSH:
@@ -309,8 +307,6 @@ git switch
 git merge
 
 git log
-
----
 
 Ringkasan Alur GitHub
 

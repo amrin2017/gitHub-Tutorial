@@ -47,7 +47,7 @@ Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hi
    Langkah 4
    Login ke GitHub.
 
-4. Mengenal Tampilan GitHub
+4. Mengenal Tampilan GitHub <br>
    Menu utama: <br>
    4.1 Dashboard <br>
    Berisi:
@@ -55,19 +55,19 @@ Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hi
    • Aktivitas
    • Notifikasi<br>
    4.2 Repositories <br>
-   Tempat penyimpanan project.
-   Projects
-   Manajemen pekerjaan.
-   Issues
+   Tempat penyimpanan project. <br>
+   4.3 Projects <br>
+   Manajemen pekerjaan. <br>
+   4.4 Issues <br>
    Daftar masalah atau tugas.
-   Pull Requests
-   Permintaan penggabungan kode.
-   Actions
-   CI/CD otomatis.
-   Settings
+   4.5 Pull Requests <br>
+   Permintaan penggabungan kode. <br>
+   4.6 Actions <br>
+   CI/CD otomatis. <br>
+   4.7 Settings <br>
    Pengaturan akun dan repository.
-
-5. Install Git
+   <br>
+5. Install Git <br>
    Download Git:
    Git Download
    Cek Instalasi
@@ -75,68 +75,67 @@ Tutorial ini ditujukan untuk mahasiswa yang ingin menggunakan GitHub dari nol hi
    git --version
    Contoh hasil:
    git version 2.50.0
-
-6. Konfigurasi Git
+   <br>
+6. Konfigurasi Git <br>
    Setelah instalasi:
    git config --global user.name "Muhammad Amrin Lubis"
 
 git config --global user.email "mamrinlubis@metamedia.ac.id"
 Cek konfigurasi:
 git config --list
-
-7. Membuat Repository di GitHub
-   Klik:
-   New Repository
-   Isi:
-   Repository Name : belajar-github
-   Description : Tutorial GitHub
-   Pilih:
-   Public
-   Centang:
-   README.md
-   Klik:
-   Create Repository
-
-8. Clone Repository
-   Clone berarti mengambil repository dari GitHub ke komputer.
-   Contoh:
-   git clone https://github.com/amrinlubis/belajar-github.git
-   Masuk folder:
-   cd belajar-github
-
-9. Menambahkan File
+<br> 7. Membuat Repository di GitHub <br>
+Klik:
+New Repository
+Isi:
+Repository Name : belajar-github
+Description : Tutorial GitHub
+Pilih:
+Public
+Centang:
+README.md
+Klik:
+Create Repository
+<br> 8. Clone Repository <br>
+Clone berarti mengambil repository dari GitHub ke komputer.
+Contoh:
+git clone https://github.com/amrinlubis/belajar-github.git
+Masuk folder:
+cd belajar-github
+<br> 9. Menambahkan File <br>
 Misal membuat:
 index.php
 Isi:
+
 <?php
 echo "Hello GitHub";
 ?>
-
-10. Status Repository
+<br>
+10. Status Repository<br>
     Lihat status:
     git status
     Contoh:
     Untracked files:
     index.php
-
-11. Menambahkan File ke Staging Area
+<br>
+11. Menambahkan File ke Staging Area<br>
     git add index.php
     Atau:
     git add .
-
-12. Commit
+<br>
+12. Commit <br>
     Commit adalah menyimpan perubahan.
     git commit -m "Menambah file index.php"
-
-13. Push ke GitHub
+<br>
+13. Push ke GitHub<br>
     Kirim ke server GitHub:
     git push origin main
-
-14. Pull dari GitHub
+<br>
+14. Pull dari GitHub<br>
     Mengambil update terbaru:
     git pull origin main
 
-15. Alur Kerja GitHub
+15. Alur Kerja GitHub<br>
+    <br>
     Edit File
     ↓
     git add .
@@ -146,8 +145,8 @@ echo "Hello GitHub";
     git push
     ↓
     GitHub
-
-16. Membuat Branch
+    <br>
+16. Membuat Branch <br>
     Branch digunakan untuk pengembangan fitur.
     Buat branch:
     git branch fitur-login
@@ -155,14 +154,14 @@ echo "Hello GitHub";
     git checkout fitur-login
     Atau:
     git switch fitur-login
-
-17. Merge Branch
+    <br>
+17. Merge Branch<br>
     Kembali ke main:
     git checkout main
     Merge:
     git merge fitur-login
-
-18. Pull Request (PR)
+    <br>
+18. Pull Request (PR)<br>
     Pull Request digunakan untuk meminta penggabungan kode.
     Alur:
     Branch Baru
@@ -174,14 +173,14 @@ echo "Hello GitHub";
     Review
     ↓
     Merge
-
-19. Fork Repository
+    <br>
+19. Fork Repository<br>
     Fork digunakan untuk menyalin repository orang lain.
     Klik:
     Fork
     Repository akan masuk ke akun Anda.
-
-20. Issue
+    <br>
+20. Issue<br>
     Issue digunakan untuk:
     • Bug
     • Permintaan fitur
@@ -189,8 +188,8 @@ echo "Hello GitHub";
     Contoh:
     Judul:
     Login gagal ketika password kosong
-
-21. GitHub Pages
+    <br>
+21. GitHub Pages <br>
     Digunakan untuk hosting website gratis.
     Masuk:
     Settings
@@ -201,8 +200,8 @@ echo "Hello GitHub";
     main
     Website akan aktif di:
     https://username.github.io/repository
-
-22. File .gitignore
+    <br>
+22. File .gitignore<br>
     Digunakan untuk mengabaikan file tertentu.
     Contoh:
     node_modules/
@@ -214,8 +213,8 @@ echo "Hello GitHub";
     .env
     vendor/
     node_modules/
-
-23. README.md
+    <br>
+23. README.md<br>
     README adalah dokumentasi proyek.
     Contoh:
 
@@ -228,16 +227,17 @@ Aplikasi berbasis Laravel
 - Login
 - Simpan Pinjam
 - Laporan
+  <br>
 
-24. GitHub Actions
+24. GitHub Actions<br>
     Digunakan untuk otomatisasi:
     • Testing
     • Build
     • Deploy
     Contoh file:
     .github/workflows/main.yml
-
-25. SSH GitHub
+    <br>
+25. SSH GitHub<br>
     Lebih aman daripada username/password.
     Generate SSH:
     ssh-keygen -t ed25519 -C "email@gmail.com"
@@ -245,8 +245,8 @@ Aplikasi berbasis Laravel
     cat ~/.ssh/id_ed25519.pub
     Tambahkan ke:
     GitHub SSH Settings
-
-26. Repository Private
+    <br>
+26. Repository Private<br>
     Digunakan untuk:
     • Skripsi
     • Penelitian
@@ -254,36 +254,37 @@ Aplikasi berbasis Laravel
     Pilih:
     Private
     Saat membuat repository.
-
+    <br>
 27. Struktur Repository Profesional
-    project/
-    │
-    ├── src/
-    ├── docs/
-    ├── tests/
-    ├── assets/
-    ├── README.md
-    ├── LICENSE
-    └── .gitignore
-
-28. GitHub untuk Dosen
+    <br>
+    project/<br>
+    │<br>
+    ├── src/<br>
+    ├── docs/<br>
+    ├── tests/<br>
+    ├── assets/<br>
+    ├── README.md<br>
+    ├── LICENSE<br>
+    └── .gitignore<br>
+    <br>
+28. GitHub untuk Dosen<br>
     GitHub dapat digunakan untuk:
     • Menyimpan materi kuliah
     • Menyimpan source code praktikum
     • Kolaborasi penelitian
     • Portofolio akademik
     • Publikasi modul pembelajaran
-
-29. GitHub untuk Mahasiswa
+    <br>
+29. GitHub untuk Mahasiswa<br>
     GitHub dapat digunakan untuk:
     • Tugas kuliah
     • Skripsi
     • Portofolio kerja
     • Belajar Open Source
 
----
+<br>
 
-30. Perintah Git yang Paling Sering Digunakan
+30. Perintah Git yang Paling Sering Digunakan<br>
     git init
 
 git clone
@@ -307,7 +308,7 @@ git switch
 git merge
 
 git log
-
+<br>
 Ringkasan Alur GitHub
 
 1. Buat akun GitHub
